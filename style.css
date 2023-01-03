@@ -22,22 +22,23 @@
 .bg{
     background-color:#232F3E !important;
 }
-/* .md{
-    margin-right:   30rem;
+.md{
+    margin-right:180px;
+    margin-left: 29px;
 
-} */
+}
 
     .tt{
         z-index: inherit;
         background-color: #232F3E;
     }
-
+/* //////////////////////////////////////search//////////////////////////////////////// */
 .sch{
-    width:30rem ;
+    width:50rem ;
 }
 .bn{
     position: relative;
-    right: 70px;
+    right: 81px;
     background-color: white;
 
 }
@@ -45,11 +46,30 @@
 .bn:hover{
     color: black !important;
 }
-.schr{
+
+.schr  {
     width:30rem ;
     margin-right: 5px;
 }
 .j2{
     justify-content: center !important;
     align-items: center !important;
+}
+.sz{
+    position: relative;
+     right: 55.06rem;
+}
+.tn{
+    text-align: left;
+    margin-top: 5px;
+    text-shadow: 3px;
+    font-size: small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aa{
+    margin-right: 1rem;
+}
+.lng{
+    border: 2px solid white;
+    
 }
