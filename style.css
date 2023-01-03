@@ -1,0 +1,47 @@
+.st{
+    width: 5rem;
+    height: 40rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    
+}
+.ss a{
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+
+}
+.cc{
+    margin-left: 11rem;
+    width:70rem;
+    height:50px;
+}
+.br{
+    border-top: 5px solid black;
+}
+.bg{
+    background-color:#232F3E !important;
+}
+/* .md{
+    margin-right:   30rem;
+
+} */
+
+    .tt{
+        z-index: inherit;
+        background-color: #232F3E;
+    }
+
+.sch{
+    width:30rem ;
+}
+.bn{
+    position: relative;
+    right: 70px;
+    background-color: white;
+
+}
+
+.bn:hover{
+    color: black !important;
+}
