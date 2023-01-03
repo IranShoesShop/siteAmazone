@@ -45,3 +45,11 @@
 .bn:hover{
     color: black !important;
 }
+.schr{
+    width:30rem ;
+    margin-right: 5px;
+}
+.j2{
+    justify-content: center !important;
+    align-items: center !important;
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: #EAEDED;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.card-img-top{
+    padding: 2px;
+}
+.card-title{
+    margin-top: 1px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2px;
+}
+.card{
+    /* background: #e0e0e0; */
+box-shadow:  -9px 9px 18px #878787c7,
+             9px -9px 18px #dddddd24;
+
+}
+.card{
+    transition: all 1s;
+}
+
+.card:hover{
+    transform: scale(1.011);
+    z-index: 1;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+.aarrsshh{
+    margin-top:-100px;    
+}
+
+.card a{
+    display: inline-block;
+    position: relative;
+    color: #0c0c0c;
+  }
+  
+  .card a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff3f3f;
+    transform-origin: bottom center;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .card a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  } 
+
