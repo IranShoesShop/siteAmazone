@@ -48,7 +48,7 @@
 }
 
 .schr  {
-    width:30rem ;
+    width:30rem  ;
     margin-right: 5px;
 }
 .j2{
@@ -72,4 +72,8 @@
 .lng{
     border: 2px solid white;
     
+}
+.nbn{
+    width: 50% !important;
+    height: 50% !important;
 }
