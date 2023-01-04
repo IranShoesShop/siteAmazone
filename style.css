@@ -34,11 +34,11 @@
     }
 /* //////////////////////////////////////search//////////////////////////////////////// */
 .sch{
-    width:50rem ;
+    width:40rem ;
 }
 .bn{
     position: relative;
-    right: 81px;
+    right: 7.8px;
     background-color: white;
 
 }
@@ -48,7 +48,8 @@
 }
 
 .schr  {
-    width:30rem  ;
+    width:30rem  
+    ;
     margin-right: 5px;
 }
 .j2{
@@ -56,8 +57,8 @@
     align-items: center !important;
 }
 .sz{
-    position: relative;
-     right: 55.06rem;
+    
+     right: 0rem;
 }
 .tn{
     text-align: left;
