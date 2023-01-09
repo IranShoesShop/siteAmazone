@@ -58,4 +58,6 @@ box-shadow:  -9px 9px 18px #878787c7,
     transform: scaleX(1);
     transform-origin: bottom center;
   } 
-
+.rr{
+    overflow-x: scroll;
+}
