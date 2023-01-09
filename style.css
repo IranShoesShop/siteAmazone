@@ -22,6 +22,23 @@
 .bg{
     background-color:#232F3E !important;
 }
+.vv ul{
+    width: 100%;
+    overflow-x: auto !important;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    
+}
+.vv ul li {
+    color:white;
+    display: inline-block;
+    overflow-x: auto !important;
+}
+.vv ul li :not(:first-child){
+    margin-left: 28px;
+}
 .md{
     margin-right:180px;
     margin-left: 29px;
