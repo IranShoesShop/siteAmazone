@@ -22,19 +22,21 @@
 .bg{
     background-color:#232F3E !important;
 }
-.bg ul{
+.vv ul{
     width: 100%;
-    overflow-x: auto;
-    height: 30px;
+    overflow-x: auto !important;
+    height: 30px !important;
     display: flex;
     align-items: center;
     margin: 0;
+    
 }
-.bg ul li a{
+.vv ul li {
     color:white;
     display: inline-block;
+    overflow-x: auto !important;
 }
-.bg ul li a:not(:first-child){
+.vv ul li :not(:first-child){
     margin-left: 28px;
 }
 .md{
