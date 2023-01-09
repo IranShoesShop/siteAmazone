@@ -9,7 +9,7 @@ a{
 .card-img-top{
     padding: 2px;
 }
-.card-title{
+.card-title , .card-block p{
     margin-top: 1px;
     font-weight: bold;
     text-align: center;
