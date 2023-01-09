@@ -25,7 +25,7 @@ box-shadow:  -9px 9px 18px #878787c7,
     transition: all 1s;
 }
 
-.card:hover{
+.card-hover:hover{
     transform: scale(1.011);
     z-index: 1;
 }
