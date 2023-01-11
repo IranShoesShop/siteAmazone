@@ -24,8 +24,8 @@
 }
 .vv ul{
     width: 100%;
-    overflow-x: auto !important;
-    height: 30px !important;
+    overflow-x: auto;
+    height: 30px;
     display: flex;
     align-items: center;
     margin: 0;
@@ -100,4 +100,14 @@
         width: 35rem;
         
     }
+}
+@media(max-width:992px){
+    .dn{
+        margin-left: 4.5rem;
+        }
+}
+@media(max-width:992px){
+    .tt{
+        background-color:#232F3E !important;
+        }
 }

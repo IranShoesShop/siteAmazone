@@ -21,7 +21,7 @@
 
 <body>
   <!-- ///////////////////menu-up/////////////////// -->
-  <nav class="navbar bg-dark text-bg-dark tt">
+  <nav class="navbar bg-dark text-bg-dark d-none d-md-block  tt">
     <div class="container-fluid">
       <!-- ///////////////////search-brand////////////////// -->
       <div style="display: flex; width: 100%;height: 100%;align-items: center;">
@@ -41,7 +41,7 @@
           </h1>
         </button>
         <div class="jostojoo d-none d-md-flex justify-content-center align-items-center md">
-          <form class="d-flex abc" role="search">
+          <form class="d-flex d-none d-md-flex abc" role="search">
             <div class="dropdown sz">
               <button style="border-radius:5px 0 0 5px ;" class="btn btn-secondary dropdown-toggle"
                 style="width: 3rem !important;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,7 +61,7 @@
             <button style="border-radius:0px 5px 5px 0px ;" class="btn bg-warning bn" type="submit">Search</button>
 
           </form>
-          <div class="dropdown dn d-none d-md-block ">
+          <div class="dropdown dn d-flex ">
             <button class="btn dropdown-toggle lng text-light  " type="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               <i class="bi bi-flag">EN</i>
@@ -87,7 +87,7 @@
       <!-- /////////////////////offcanvas-sm///////////////////// -->
       <div class="offcanvas offcanvas-start" style="width: 20rem;" id="offcanvasNavbar">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">IranShoes</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -117,7 +117,7 @@
       </div>
   </nav>
   <!-- /////////////////menu-down ////////////////// -->
-  <nav class="navbar text-bg-light bg ">
+  <nav class="navbar text-bg-light bg d-none d-md-block ">
     <div class="container-fluid">
       <a class="navbar-brand d-none d-md-block" href="#"><button class="navbar-toggler text-light" type="button"
           data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
@@ -130,32 +130,115 @@
 
       <div class="menu d-none d-md-block me-auto">
         <ul class="nav me-auto ss" style="text-decoration: none; ">
-          <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item  ">
+            <a class="nav-link active" aria-current="page" href="#">New</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">news</a>
+            <a class="nav-link" href="#">Men</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">photo</a>
+            <a class="nav-link" href="#">Women</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">About us</a>
+            <a class="nav-link ">Kids</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Sale</a>
           </li>
         </ul>
       </div>
 
-      <div class="joostojo2 w-100 d-md-none d-sm-flex justify-content-center ">
+      <div class="joostojo2 d-md-none d-sm-flex justify-content-center ">
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn bg-warning bn" type="submit">Search</button>
+          <input style="border-radius:0px 0 0 0px ;" class="form-control sch me-2 p-1" type="search"
+            aria-label="Search">
+          <button style="border-radius:0px 5px 5px 0px ;" class="btn bg-warning bn" type="submit">Search</button>
         </form>
 
       </div>
 
       <div class="offcanvas offcanvas-start d-none d-md-block" id="offcanvasNavbar2">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">IranShoes</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">news</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">profile</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Account
+              </a>
+              <ul class="dropdown-menu">
+
+                <li><a class="dropdown-item" href="#">sign in</a></li>
+                <li><a class="dropdown-item" href="#">sign up</a></li>
+                <!-- <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <!-- ////////////////////menu-mobile//////////////////// -->
+  <nav class="navbar bg-dark text-bg-dark tt d-md-none">
+    <div class="container-fluid">
+      <div style="display: flex; width: 100%;height: 100%;align-items: center;">
+        <a class="navbar-brand  d-md-none" href="#"><button class="navbar-toggler ntn" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar1" aria-controls="offcanvasNavbar1">
+            <i style="color:aliceblue" class="bi bi-list"></i>
+          </button>
+        </a>
+        <a href="#" class="navbar-brand text-light">IranShoes
+        </a>
+
+      </div>
+      <br>
+      <div class="joostojo2 w-100 d-md-none d-sm-flex justify-content-center">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn bg-warning bn" type="submit">Search</button>
+        </form>
+
+      </div>
+      <br>
+      <ul class="nav me-auto ss" style="text-decoration: none; color: white;">
+        <li class="nav-item  ">
+          <a class="nav-link active" aria-current="page" href="#">New</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Men</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">Kids</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Sale</a>
+        </li>
+      </ul>
+      <!-- ////////////////////////////////////////// -->
+      <div class="offcanvas offcanvas-start" style="width: 20rem;" id="offcanvasNavbar1">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">IranShoes</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -172,7 +255,6 @@
                 Dropdown
               </a>
               <ul class="dropdown-menu">
-
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
@@ -184,42 +266,6 @@
           </ul>
         </div>
       </div>
-  </nav>
-  <!-- ////////////////////menu-mobile//////////////////// -->
-  <nav class="navbar  text-bg-light vv bg d-md-none">
-    <div class="container-fluid">
-
-      <ul class="nav me-auto w-100" style="text-decoration: none;">
-        <li class="nav-item ">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">news</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">photo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link ">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link ">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link ">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link ">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link ">About us</a>
-        </li>
-      </ul>
-
-    </div>
   </nav>
   <!-- ///////////////////////////// -->
   <!--slider-->
@@ -252,234 +298,232 @@
 
   <!-- ax 4 taiie-->
 
-  
-<div class="container-fluid aarrsshh d-none d-md-block">
-  <div class="row">
+
+  <div class="container-fluid aarrsshh d-none d-md-block">
+    <div class="row">
 
       <div class="card-group" style="border-radius: 2px; ">
 
-<div class="col-3" >
-  <div class="card m-2">
-      <div class="card-title">
-          <p>Beauty picks</p>
-              <img src="img/nike1.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
-              <footer> <a href="" class="text-center" > Shop Now </a> </footer>
-      </div>
-  </div>
-</div>
-
-<div class="col-3" >
-<div class="card m-2">
-    <div class="card-title">
-        <p>Beauty picks</p>
-            <img src="img/nike2.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
-            <footer> <a href="" class="text-center" > Shop Now </a> </footer>
-    </div>
-</div>
-</div>
-
-<div class="col-3" >
-<div class="card m-2">
-    <div class="card-title">
-        <p>Beauty picks</p>
-            <img src="img/nike3.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
-            <footer> <a href="" class="text-center" > Shop Now </a> </footer>
-    </div>
-</div>
-</div>
-
-<div class="col-3" >
-<div class="card m-2">
-    <div class="card-title">
-        <p>Beauty picks</p>
-            <img src="img/nike4.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
-            <footer> <a href="" class="text-center" > Shop Now </a> </footer>
-    </div>
-</div>
-</div>
-
-  
-    </div> <!--card-group-->
-  
-          <div class="card-group" style="border-radius: 2px; ">
-  
-  <div class="col-3" >
-      <div class="card m-2">
-          <div class="card-title">
+        <div class="col-3">
+          <div class="card m-2">
+            <div class="card-title">
               <p>Beauty picks</p>
-                  <img src="img/nike5.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
-                  <footer> <a href="" class="text-center" > Shop Now </a> </footer>
-          </div>
-      </div>
-  </div>
-  
-  <div class="col-3" >
-    <div class="card m-2">
-        <div class="card-title">
-            <p>Beauty picks</p>
-                <img src="img/nike6.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
-                <footer> <a href="" class="text-center" > Shop Now </a> </footer>
-        </div>
-    </div>
-  </div>
-  
-  <div class="col-3" >
-    <div class="card m-2">
-        <div class="card-title">
-            <p>Beauty picks</p>
-                <img src="img/nike7.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
-                <footer> <a href="" class="text-center" > Shop Now </a> </footer>
-        </div>
-    </div>
-  </div>
-  
-  <div class="col-3" >
-    <div class="card m-2">
-        <div class="card-title">
-            <p>Beauty picks</p>
-                <img src="img/nike8.webp" class="card-img-top" alt="..." style="max-width: 240px;">
-                <footer> <a href="" class="text-center" > Shop Now </a> </footer>
-        </div>
-    </div>
-  </div>
-  
-      
-        </div> <!--card-group-->
-
-  </div>
-</div>
-  
-
-
-
-
-
-
-<!---------------------------start mobil 1 ---------------------------------------------------->
-
-<div class="container col-11 d-md-none" style="background-color: rgba(199, 199, 199, 0.389);">
-<h6 class="pt-2">J O R D A N </h6>
-<div class="row">
-     <div class="col d-flex">
-        <div class="col" >
-
-            <div class="card "  style="background-color: rgba(0, 0, 0, 0);">
-                <div class="card-img d-flex justify-content-center">
-                    <img src="img/nike1.jpg" alt="" style="max-width: 145px;" >
-                </div>
+              <img src="img/nike1.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
+              <footer> <a href="" class="text-center"> Shop Now </a> </footer>
             </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card m-2">
+            <div class="card-title">
+              <p>Beauty picks</p>
+              <img src="img/nike2.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
+              <footer> <a href="" class="text-center"> Shop Now </a> </footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card m-2">
+            <div class="card-title">
+              <p>Beauty picks</p>
+              <img src="img/nike3.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
+              <footer> <a href="" class="text-center"> Shop Now </a> </footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card m-2">
+            <div class="card-title">
+              <p>Beauty picks</p>
+              <img src="img/nike4.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
+              <footer> <a href="" class="text-center"> Shop Now </a> </footer>
+            </div>
+          </div>
+        </div>
+
+
+      </div> <!--card-group-->
+
+      <div class="card-group" style="border-radius: 2px; ">
+
+        <div class="col-3">
+          <div class="card m-2">
+            <div class="card-title">
+              <p>Beauty picks</p>
+              <img src="img/nike5.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
+              <footer> <a href="" class="text-center"> Shop Now </a> </footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card m-2">
+            <div class="card-title">
+              <p>Beauty picks</p>
+              <img src="img/nike6.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
+              <footer> <a href="" class="text-center"> Shop Now </a> </footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card m-2">
+            <div class="card-title">
+              <p>Beauty picks</p>
+              <img src="img/nike7.jpg" class="card-img-top" alt="..." style="max-width: 240px;">
+              <footer> <a href="" class="text-center"> Shop Now </a> </footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card m-2">
+            <div class="card-title">
+              <p>Beauty picks</p>
+              <img src="img/nike8.webp" class="card-img-top" alt="..." style="max-width: 240px;">
+              <footer> <a href="" class="text-center"> Shop Now </a> </footer>
+            </div>
+          </div>
+        </div>
+
+
+      </div> <!--card-group-->
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!---------------------------start mobil 1 ---------------------------------------------------->
+
+  <div class="container col-11 d-md-none" style="background-color: rgba(199, 199, 199, 0.389);">
+    <h6 class="pt-2">J O R D A N </h6>
+    <div class="row">
+      <div class="col d-flex">
+        <div class="col">
+
+          <div class="card " style="background-color: rgba(0, 0, 0, 0);">
+            <div class="card-img d-flex justify-content-center">
+              <img src="img/nike1.jpg" alt="" style="max-width: 145px;">
+            </div>
+          </div>
 
         </div>
 
 
         <div class="col">
 
-            <div class="card ms-2" style="background-color: rgba(227, 14, 14, 0);">
-                <div class="card-img d-flex justify-content-center">
-                    <img src="img/nike2.jpg" alt="" style="max-width: 145px;" >
-                </div>
+          <div class="card ms-2" style="background-color: rgba(227, 14, 14, 0);">
+            <div class="card-img d-flex justify-content-center">
+              <img src="img/nike2.jpg" alt="" style="max-width: 145px;">
             </div>
+          </div>
 
         </div>
 
-     </div> <!--col end-->
+      </div> <!--col end-->
 
-     <div class="col d-flex">
-      <div class="col" >
+      <div class="col d-flex">
+        <div class="col">
 
-          <div class="card mt-2"  style="background-color: rgba(0, 0, 0, 0);">
-              <div class="card-img d-flex justify-content-center">
-                  <img src="img/nike3.jpg" alt="" style="max-width: 145px;" >
-              </div>
-          </div>
-
-      </div>
-
-
-      <div class="col">
-
-          <div class="card ms-2 mt-2" style="background-color: rgba(227, 14, 14, 0);">
-              <div class="card-img d-flex justify-content-center">
-                  <img src="img/nike4.jpg" alt="" style="max-width: 145px;" >
-              </div>
-          </div>
-
-      </div>
-
-   </div> <!--col end-->
-
-
-
-
-
-
-
-
-
-
-
-
-</div> <!--row-->
-<h6 class="p-2 text-center"><a href="" class="more-mobile">MORE</a></h6>
-</div> <!--container-->
-
-<!---------------------------start mobil 2 ---------------------------------------------------->
-<hr>
-<br>
-
-
-<div class="container col-11 d-md-none" style="background-color: rgba(199, 199, 199, 0.389);">
-<h6 class="pt-2">J O R D A N </h6>
-<div class="row">
-     <div class="col d-flex">
-        <div class="col" >
-
-            <div class="card "  style="background-color: rgba(0, 0, 0, 0);">
-                <div class="card-img d-flex justify-content-center">
-                    <img src="img/nike5.jpg" alt="" style="max-width: 145px;" >
-                </div>
+          <div class="card mt-2" style="background-color: rgba(0, 0, 0, 0);">
+            <div class="card-img d-flex justify-content-center">
+              <img src="img/nike3.jpg" alt="" style="max-width: 145px;">
             </div>
+          </div>
 
         </div>
 
 
         <div class="col">
 
-            <div class="card ms-2" style="background-color: rgba(227, 14, 14, 0);">
-                <div class="card-img d-flex justify-content-center">
-                    <img src="img/nike6.jpg" alt="" style="max-width: 145px;" >
-                </div>
+          <div class="card ms-2 mt-2" style="background-color: rgba(227, 14, 14, 0);">
+            <div class="card-img d-flex justify-content-center">
+              <img src="img/nike4.jpg" alt="" style="max-width: 145px;">
             </div>
+          </div>
 
         </div>
 
-     </div> <!--col end-->
+      </div> <!--col end-->
 
-     <div class="col d-flex">
-      <div class="col mt-2" >
 
-          <div class="card "  style="background-color: rgba(0, 0, 0, 0);">
-              <div class="card-img d-flex justify-content-center">
-                  <img src="img/nike7.jpg" alt="" style="max-width: 145px;" >
-              </div>
+
+
+
+
+
+
+
+
+
+
+    </div> <!--row-->
+    <h6 class="p-2 text-center"><a href="" class="more-mobile">MORE</a></h6>
+  </div> <!--container-->
+
+  <!---------------------------start mobil 2 ---------------------------------------------------->
+  <hr>
+  <br>
+
+
+  <div class="container col-11 d-md-none" style="background-color: rgba(199, 199, 199, 0.389);">
+    <h6 class="pt-2">J O R D A N </h6>
+    <div class="row">
+      <div class="col d-flex">
+        <div class="col">
+
+          <div class="card " style="background-color: rgba(0, 0, 0, 0);">
+            <div class="card-img d-flex justify-content-center">
+              <img src="img/nike5.jpg" alt="" style="max-width: 145px;">
+            </div>
           </div>
 
-      </div>
+        </div>
 
 
-      <div class="col">
+        <div class="col">
+
+          <div class="card ms-2" style="background-color: rgba(227, 14, 14, 0);">
+            <div class="card-img d-flex justify-content-center">
+              <img src="img/nike6.jpg" alt="" style="max-width: 145px;">
+            </div>
+          </div>
+
+        </div>
+
+      </div> <!--col end-->
+
+      <div class="col d-flex">
+        <div class="col mt-2">
+
+          <div class="card " style="background-color: rgba(0, 0, 0, 0);">
+            <div class="card-img d-flex justify-content-center">
+              <img src="img/nike7.jpg" alt="" style="max-width: 145px;">
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col">
 
           <div class="card ms-2 mt-2" style="background-color: rgba(227, 14, 14, 0);">
-              <div class="card-img d-flex justify-content-center">
-                  <img src="img/nike8.webp" alt="" style="max-width: 145px;" >
-              </div>
+            <div class="card-img d-flex justify-content-center">
+              <img src="img/nike8.webp" alt="" style="max-width: 145px;">
+            </div>
           </div>
 
-      </div>
+        </div>
 
-   </div> <!--col end-->
-
-
+      </div> <!--col end-->
 
 
 
@@ -490,9 +534,11 @@
 
 
 
-</div> <!--row-->
-<h6 class="p-2 text-center"><a href="" class="more-mobile">MORE</a></h6>
-</div> <!--container-->
+
+
+    </div> <!--row-->
+    <h6 class="p-2 text-center"><a href="" class="more-mobile">MORE</a></h6>
+  </div> <!--container-->
 
 
 
@@ -508,14 +554,12 @@
 
   <p style="font-weight: bold;" class="d-md-none"> OFFERE JORDAN SHOESE FOR NEW HEAR</p>
 
-  <div class="container d-md-none d-sm-block" 
-    style="background-color: #bbbbbb10;">
+  <div class="container d-md-none d-sm-block" style="background-color: #bbbbbb10;">
     <div class="col-12 d-flex justify-content-center">
       <img src="img/nike9.webp" style="max-width: 350px;" alt="">
     </div>
   </div>
-  <div class="container d-none d-md-block" 
-    style="background-color: #bbbbbb10;">
+  <div class="container d-none d-md-block" style="background-color: #bbbbbb10;">
     <p style="font-weight: bold;"> OFFERE JORDAN SHOESE FOR NEW HEAR</p>
     <div class="col-12 d-flex justify-content-center">
       <img src="img/nike9.webp" height="300rem" width="80%" alt="">
