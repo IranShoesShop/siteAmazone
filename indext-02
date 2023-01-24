@@ -1,0 +1,1172 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="style2/style.css">
+  <link rel="stylesheet" href="js.js">
+<link rel="stylesheet" href="styleindext2/style.css">
+<link rel="stylesheet" href="man.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- ------------------------------------------------------------------------------ -->
+
+  <div class="filter">
+    <div class="col-12" style="background-color:rgb(255, 255, 255)">
+      <div class="dropdown d-none d-md-block" dir="rtl">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Sort By
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">feature</a></li>
+          <li><a class="dropdown-item" href="#">Newest</a></li>
+          <li><a class="dropdown-item" href="#">price:High-Low</a></li>
+          <li><a class="dropdown-item" href="#">price:Low-High</a></li>
+        </ul>
+      </div>
+      <!-- //////////////////////////////////////////////////////// -->
+      <a class="navbar-brand d-md-none d-block" dir="rtl" href="#"><button
+          style="font-size:25px; margin-right: 10px; width: 70px; height: 40px;" class="navbar-toggler xx"
+          type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <i class="bi bi-sliders"></i>Filter
+        </button></a>
+  
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Filter</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <h5 class="offcanvas-title nav-item" id="offcanvasDarkNavbarLabel">Sort By</h5>
+              <div class="container1">
+                <div class="chck-mobile">
+                  <input class="checkbox-mobile " type="checkbox">
+                  <a class=" text-light" href="#">feature</a>
+                  <div class="checkmark-mobile"></div>
+                </div>
+                <div class="chck2-mobile">
+                  <input class="checkbox2-mobile" type="checkbox">
+                  <a class=" text-light" href="#">Newest</a>
+                  <div class="checkmark2-mobile"></div>
+                </div>
+                <div class="chck3-mobile">
+                  <input class="checkbox3-mobile" type="checkbox">
+                  <a class=" text-light" href="#">price:High-Low</a>
+                  <div class="checkmark3-mobile"></div>
+  
+                </div>
+                <div class="chck4-mobile">
+                  <input class="checkbox4-mobile" type="checkbox">
+                  <a class=" text-light" href="#">price:Low-High</a>
+                  <div class="checkmark4-mobile"></div>
+  
+                </div>
+              </div>
+            </li>
+            <hr class="divider">
+            <li class="nav-item">
+              <h5 class="offcanvas-title nav-item" id="offcanvasDarkNavbarLabel">Genral</h5>
+              <div class="container2">
+                <div class="chck5-mobile">
+                  <input class="checkbox5-mobile" type="checkbox">
+                  <a class=" text-light" href="#">Men</a>
+                  <div class="checkmark5-mobile"></div>
+                </div>
+                <div class="chck6-mobile">
+                  <input class="checkbox6-mobile" type="checkbox">
+                  <a class=" text-light" href="#">Women</a>
+                  <div class="checkmark6-mobile"></div>
+                </div>
+                <div class="chck7-mobile">
+                  <input class="checkbox7-mobile" type="checkbox">
+                  <a class=" text-light" href="#">Unisex</a>
+                  <div class="checkmark7-mobile"></div>
+  
+                </div>
+              </div>
+            </li>
+            <hr class="divider">
+            <li class="nav-item">
+              <h5 class="offcanvas-title nav-item" id="offcanvasDarkNavbarLabel">Kids</h5>
+              <div class="container3">
+                <div class="chck8-mobile">
+                  <input class="checkbox8-mobile" type="checkbox">
+                  <a href="#">Boys</a>
+                  <div class="checkmark8-mobile"></div>
+                </div>
+                <div class="chck9-mobile">
+                  <input class="checkbox9-mobile" type="checkbox">
+                  <a href="#">Grils</a>
+                  <div class="checkmark9-mobile"></div>
+                </div>
+                
+              </div>
+            </li>
+            <hr class="divider">
+            <li class="nav-item">
+              <h5 class="offcanvas-title nav-item" id="offcanvasDarkNavbarLabel">Shop By Price</h5>
+              <div class="container4">
+                <div class="chck10-mobile">
+                  <input class="checkbox10-mobile" type="checkbox">
+                  <a href="#">0$-25$</a>
+                  <div class="checkmark10-mobile"></div>
+                </div>
+                <div class="chck11-mobile">
+                  <input class="checkbox11-mobile" type="checkbox">
+                  <a href="#">25$-50$</a>
+                  <div class="checkmark11-mobile"></div>
+                </div>
+                <div class="chck12-mobile">
+                  <input class="checkbox12-mobile" type="checkbox">
+                  <a href="#">50$-100$</a>
+                  <div class="checkmark12-mobile"></div>
+                </div>
+                <div class="chck13-mobile">
+                  <input class="checkbox13-mobile" type="checkbox">
+                  <a href="#">100$-150$</a>
+                  <div class="checkmark13-mobile"></div>
+                </div>
+                <div class="chck14-mobile">
+                  <input class="checkbox14-mobile" type="checkbox">
+                  <a href="#">Over 150$</a>
+                  <div class="checkmark14-mobile"></div>
+                </div>
+  
+              </div>
+            </li>
+            
+            <hr class="divider">
+            <li class="nav-item">
+              <h5 class="offcanvas-title nav-item" id="offcanvasDarkNavbarLabel">Color</h5>
+              <div class="container5">
+                <div class="chck15-mobile">
+                  <input class="checkbox15-mobile" type="checkbox">
+                  <a href="#">Red</a>
+                  <div class="checkmark15-mobile"></div>
+                </div>
+                <div class="chck16-mobile">
+                  <input class="checkbox16-mobile" type="checkbox">
+                  <a href="#">Green</a>
+                  <div class="checkmark16-mobile"></div>
+                </div>
+                <div class="chck17-mobile">
+                  <input class="checkbox17-mobile" type="checkbox">
+                  <a href="#">Yellow</a>
+                  <div class="checkmark17-mobile"></div>
+                </div>
+                <div class="chck18-mobile">
+                  <input class="checkbox18-mobile" type="checkbox">
+                  <a href="#">Bule</a>
+                  <div class="checkmark18-mobile"></div>
+                </div>
+                <div class="chck19-mobile">
+                  <input class="checkbox19-mobile" type="checkbox">
+                  <a href="#">Black</a>
+                  <div class="checkmark19-mobile"></div>
+                </div>
+                <div class="chck20-mobile">
+                  <input class="checkbox20-mobile" type="checkbox">
+                  <a href="#">White</a>
+                  <div class="checkmark20-mobile"></div>
+                </div>
+                <div class="chck21-mobile">
+                  <input class="checkbox21-mobile" type="checkbox">
+                  <a href="#">orther</a>
+                  <div class="checkmark21-mobile"></div>
+                </div>
+  
+              </div>
+            </li>
+            <hr class="divider">
+            <li class="nav-item">
+              <h5 class="offcanvas-title nav-item" id="offcanvasDarkNavbarLabel">Brand</h5>
+              <div class="container6">
+                <div class="chck22-mobile">
+                  <input class="checkbox22-mobile" type="checkbox">
+                  <a href="#">Nike</a>
+                  <div class="checkmark22-mobile"></div>
+                </div>
+                <div class="chck23-mobile">
+                  <input class="checkbox23-mobile" type="checkbox">
+                  <a href="#">Jordan</a>
+                  <div class="checkmark23-mobile"></div>
+                </div>
+                <div class="chck24-mobile">
+                  <input class="checkbox24-mobile" type="checkbox">
+                  <a href="#">New Balance</a>
+                  <div class="checkmark24-mobile"></div>
+                </div>
+                <div class="chck25-mobile">
+                  <input class="checkbox25-mobile" type="checkbox">
+                  <a href="#">ACG</a>
+                  <div class="checkmark25-mobile"></div>
+                </div>
+  
+              </div>
+            </li>
+            <hr class="divider">
+            <li class="nav-item">
+              <h5 class="offcanvas-title nav-item" id="offcanvasDarkNavbarLabel">Size</h5>
+              <div class="container7">
+                <div class="chck26-mobile">
+                  <input class="checkbox26-mobile" type="checkbox">
+                  <a href="#">30-35</a>
+                  <div class="checkmark26-mobile"></div>
+                </div>
+                <div class="chck27-mobile">
+                  <input class="checkbox27-mobile" type="checkbox">
+                  <a href="#">35-0.2mma>
+                  <div class="checkmark27-mobile"></div>
+                </div>
+                <div class="chck28-mobile">
+                  <input class="checkbox28-mobile" type="checkbox">
+                  <a href="#">0.2mm5</a>
+                  <div class="checkmark28-mobile"></div>
+                </div>
+                <div class="chck29-mobile">
+                  <input class="checkbox29-mobile" type="checkbox">
+                  <a href="#">Over 45</a>
+                  <div class="checkmark29-mobile"></div>
+                </div>
+  
+              </div>
+            </li>
+         </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  
+  
+
+<!------------------------------------------------------------------------------------>
+
+      
+<div class="container-fluid">  
+
+  <div class="row">
+
+
+  
+
+  
+  <!-- //////////////////////////////////////////////////////// -->
+  <div class="col-2 d-none d-md-block fixed-left" style="border: 2px solid rgba(227, 227, 227, 0.371); color: black; margin-top: 5px;">
+
+    <div class="card1" style="background-color: white;">
+      <ul class="pg2 me-auto"
+        style="text-decoration: none !important; color: black;display: inline-block; background-color: white;">
+        <li class="pg2-item  ">
+          <a class="pg2-link active" href="#">Lifestyle</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">running</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">Basketball</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">jordan</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">vollyball</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">sccore</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">training & gym</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">baseball</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">Golf</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">Walking</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">Footbal</a>
+        </li>
+        <li class="pg2-item">
+          <a class="pg2-link" href="#">Tennis</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <!-- ////////////////////////item1////////////////////////////// -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            Gneral
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <div class="container">
+              <div class="chck">
+                <input class="checkbox" type="checkbox">
+                <a href="#">Men</a>
+                <div class="checkmark"></div>
+              </div>
+              <div class="chck2">
+                <input class="checkbox2" type="checkbox">
+                <a href="#">Women</a>
+                <div class="checkmark2"></div>
+              </div>
+              <div class="chck3">
+                <input class="checkbox3" type="checkbox">
+                <a href="#">Unisex</a>
+                <div class="checkmark3"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ////////////////////////item2////////////////////////////// -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Kids
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <div class="container">
+              <div class="chck4">
+                <input class="checkbox4" type="checkbox">
+                <a href="#">Boys</a>
+                <div class="checkmark4"></div>
+              </div>
+              <div class="chck5">
+                <input class="checkbox5" type="checkbox">
+                <a href="#">Grils</a>
+                <div class="checkmark5"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ////////////////////////item3////////////////////////////// -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            <i class="bi bi-currency-dollar"></i>Shop by price
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <div class="container">
+              <div class="chck6">
+                <input class="checkbox6" type="checkbox">
+                <a href="#">0$-25$</a>
+                <div class="checkmark6"></div>
+              </div>
+              <div class="chck7">
+                <input class="checkbox7" type="checkbox">
+                <a href="#">25$-50$</a>
+                <div class="checkmark7"></div>
+              </div>
+              <div class="chck8">
+                <input class="checkbox8" type="checkbox">
+                <a href="#">50$-100$</a>
+                <div class="checkmark8"></div>
+              </div>
+              <div class="chck9">
+                <input class="checkbox9" type="checkbox">
+                <a href="#">100$-150$</a>
+                <div class="checkmark9"></div>
+              </div>
+              <div class="chck10">
+                <input class="checkbox10" type="checkbox">
+                <a href="#">Over 150$</a>
+                <div class="checkmark10"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ////////////////////////item4////////////////////////////// -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapsefour">
+            Color
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingfour">
+          <div class="accordion-body">
+            <div class="container">
+              <!-- <div class="chck11">
+                <input class="checkbox11" type="checkbox">
+                <a href="#">Red</a>
+                <div class="checkmark"></div>
+              </div>
+              <div class="chck12">
+                <input class="checkbox12" type="checkbox">
+                <a href="#">Green</a>
+                <div class="checkmark12"></div>
+              </div>
+              <div class="chck13">
+                <input class="checkbox13" type="checkbox">
+                <a href="#">Yellow</a>
+                <div class="checkmark13"></div>
+              </div>
+              <div class="chck14">
+                <input class="checkbox14" type="checkbox">
+                <a href="#">Bule</a>
+                <div class="checkmark14"></div>
+              </div>
+              <div class="chck15">
+                <input class="checkbox15" type="checkbox">
+                <a href="#">Black</a>
+                <div class="checkmark15"></div>
+              </div>
+              <div class="chck16">
+                <input class="checkbox16" type="checkbox">
+                <a href="#">White</a>
+                <div class="checkmark16"></div>
+              </div>
+              <div class="chck17">
+                <input class="checkbox17" type="checkbox">
+                <a href="#">orther</a>
+                <div class="checkmark17"></div>
+              </div> -->
+
+
+              <div class="row row-cols-3 d-flex justify-content-center g-1">
+
+                <div class="col">
+
+                  
+                    <div class="rang-asli">
+                      <div class="rang" style="width: 1.60rem; height: 1.60rem; background-color: red; border-radius: 50%;"></div>
+                      <p class="texe-rang text-center" style="font-size: 15px; margin-left: -15px;">Red</p>
+                    </div>
+                  
+                </div>
+
+
+
+                <div class="col">
+
+                  
+                  <div class="rang-asli">
+                    <div class="rang" style="width: 1.60rem; height: 1.60rem; background-color: rgb(0, 51, 255); border-radius: 50%;"></div>
+                    <p class="texe-rang text-center" style="font-size: 15px; margin-left: -15px;">Blue</p>
+                  </div>
+                
+              </div>
+
+
+
+
+              <div class="col">
+
+                  
+                <div class="rang-asli">
+                  <div class="rang" style="width: 1.60rem; height: 1.60rem; background-color: red; border-radius: 50%;"></div>
+                  <p class="texe-rang text-center" style="font-size: 15px; margin-left: -15px;">Red</p>
+                </div>
+              
+            </div>
+
+
+
+            <div class="col">
+
+                  
+              <div class="rang-asli">
+                <div class="rang" style="width: 1.60rem; height: 1.60rem; background-color: red; border-radius: 50%;"></div>
+                <p class="texe-rang text-center" style="font-size: 15px; margin-left: -15px;">Red</p>
+              </div>
+            
+          </div>
+
+
+
+          <div class="col">
+
+                  
+            <div class="rang-asli">
+              <div class="rang" style="width: 1.60rem; height: 1.60rem; background-color: red; border-radius: 50%;"></div>
+              <p class="texe-rang text-center" style="font-size: 15px; margin-left: -15px;">Red</p>
+            </div>
+          
+        </div>
+
+
+
+        <div class="col">
+
+                  
+          <div class="rang-asli">
+            <div class="rang" style="width: 1.60rem; height: 1.60rem; background-color: red; border-radius: 50%;"></div>
+            <p class="texe-rang text-center" style="font-size: 15px; margin-left: -15px;">Red</p>
+          </div>
+        
+      </div>
+
+
+      <div class="col">
+
+                  
+        <div class="rang-asli">
+          <div class="rang" style="width: 1.60rem; height: 1.60rem; background-color: red; border-radius: 50%;"></div>
+          <p class="texe-rang text-center" style="font-size: 15px; margin-left: -15px;">Red</p>
+        </div>
+      
+    </div>
+
+
+    <div class="col">
+
+                  
+      <div class="rang-asli">
+        <div class="rang" style="width: 1.60rem; height: 1.60rem; background-color: red; border-radius: 50%;"></div>
+        <p class="texe-rang text-center" style="font-size: 15px; margin-left: -15px;">Red</p>
+      </div>
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+
+
+
+
+            
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ////////////////////////item5////////////////////////////// -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapsefive">
+            Brand
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingfive">
+          <div class="accordion-body">
+            <div class="container">
+              <div class="chck18">
+                <input class="checkbox18" type="checkbox">
+                <a href="#">Nike</a>
+                <div class="checkmark18"></div>
+              </div>
+              <div class="chck19">
+                <input class="checkbox19" type="checkbox">
+                <a href="#">Jordan</a>
+                <div class="checkmark19"></div>
+              </div>
+              <div class="chck20">
+                <input class="checkbox20" type="checkbox">
+                <a href="#">New Balance</a>
+                <div class="checkmark20"></div>
+              </div>
+              <div class="chck21">
+                <input class="checkbox21" type="checkbox">
+                <a href="#">ACG</a>
+                <div class="checkmark21"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ////////////////////////item6////////////////////////////// -->
+      <!-- <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingsix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapsesix">
+            Size
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapsesix" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingsix">
+          <div class="accordion-body">
+            <div class="container">
+              <div class="chck22">
+                <input class="checkbox22" type="checkbox">
+                <a href="#">30-35</a>
+                <div class="checkmark22"></div>
+              </div>
+              <div class="chck23">
+                <input class="checkbox23" type="checkbox">
+                <a href="#">35-40 </a>
+                <div class="checkmark23"></div>
+              </div>
+              <div class="chck24">
+                <input class="checkbox24" type="checkbox">
+                <a href="#">40-45   </a>
+                <div class="checkmark24"></div>
+              </div>
+              <div class="chck25">
+                <input class="checkbox25" type="checkbox">
+                <a href="#">Over 45</a>
+                <div class="checkmark25"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row row-cols-3 d-flex justify-content-around g-1 mt-2 text-dark">
+
+        <div class="col">
+
+          <div class="card">
+            <p class="text-center mt-2"> 3 </p>
+          </div>
+          
+          
+        </div>
+
+
+        <div class="col">
+
+          <div class="card">
+            <p class="text-center mt-2"> 3.5 </p>
+          </div>
+          
+          
+        </div>
+
+
+
+        <div class="col">
+
+          <div class="card">
+            <p class="text-center mt-2"> 4 </p>
+          </div>
+          
+          
+        </div>
+
+
+
+        <div class="col">
+
+          <div class="card">
+            <p class="text-center mt-2"> 4.5</p>
+          </div>
+          
+          
+        </div>
+
+
+
+        <div class="col">
+
+          <div class="card">
+            <p class="text-center mt-2"> 5 over </p>
+          </div>
+          
+          
+        </div>
+
+      </div>
+      <!-- /////////////////////////////////////////////////////////////// -->
+    </div>
+  </div>
+
+
+
+   <div class="col col-style">
+
+
+
+  <div class="row row-cols-2 row-cols-md-3 g-4">
+
+    <div class="col">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src="img/nike10.webp" width="100%" alt="">
+          <div class="card-body">
+            <h6 class="card-title text-start">BRANDE KAFSH</h6>
+            <p class="card-subtitle text-muted"> MODEL KAFSH</p>
+
+            <div class="card-footer"> shop</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src="img/nike10.webp" width="100%" alt="">
+          <div class="card-body">
+            <h6 class="card-title text-start">BRANDE KAFSH</h6>
+            <p class="card-subtitle text-muted"> MODEL KAFSH</p>
+
+            <div class="card-footer"> shop</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="col">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src="img/nike10.webp" width="100%" alt="">
+          <div class="card-body">
+            <h6 class="card-title text-start">BRANDE KAFSH</h6>
+            <p class="card-subtitle text-muted"> MODEL KAFSH</p>
+
+            <div class="card-footer"> shop</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="col">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src="img/nike10.webp" width="100%" alt="">
+          <div class="card-body">
+            <h6 class="card-title text-start">BRANDE KAFSH</h6>
+            <p class="card-subtitle text-muted"> MODEL KAFSH</p>
+
+            <div class="card-footer"> shop</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="col">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src="img/nike10.webp" width="100%" alt="">
+          <div class="card-body">
+            <h6 class="card-title text-start">BRANDE KAFSH</h6>
+            <p class="card-subtitle text-muted"> MODEL KAFSH</p>
+
+            <div class="card-footer"> shop</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="col">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src="img/nike10.webp" width="100%" alt="">
+          <div class="card-body">
+            <h6 class="card-title text-start">BRANDE KAFSH</h6>
+            <p class="card-subtitle text-muted"> MODEL KAFSH</p>
+
+            <div class="card-footer"> shop</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="col">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src="img/nike10.webp" width="100%" alt="">
+          <div class="card-body">
+            <h6 class="card-title text-start">BRANDE KAFSH</h6>
+            <p class="card-subtitle text-muted"> MODEL KAFSH</p>
+
+            <div class="card-footer"> shop</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="col">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src="img/nike10.webp" width="100%" alt="">
+          <div class="card-body">
+            <h6 class="card-title text-start">BRANDE KAFSH</h6>
+            <p class="card-subtitle text-muted"> MODEL KAFSH</p>
+
+            <div class="card-footer"> shop</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+</div>  
+
+
+
+
+</div>  <!--row end-->
+
+
+</div>  <!--container-fluif end-->
+
+
+  
+
+
+
+
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------------- -->
+  
+  <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    }
+    </script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<!-- <div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div class="col col2-style-mobile">
+    
+    <h2 class="fw-lighter text-center">List</h2>
+    <div class="row row-cols-2">
+      <div class="col">
+        <ul>
+          <li><a href="" class="">Jordan</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <ul>
+          <li><a href="" class="">Golfe</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col">
+        <ul>
+          <li><a href="" class="">Running</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col">
+        <ul>
+          <li><a href="" class="">Basketball</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <ul>
+          <li><a href="" class="">football</a></li>
+        </ul>
+      </div>
+
+
+    
+      </div>
+
+    </div>
+
+    <hr><hr>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Gender
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+
+            <label for="" class="d-flex checkbox">
+
+              <input type="checkbox" >
+              <p class="d-flex ms-1">Man</p>
+
+            </label>
+
+
+            <label for="" class="d-flex checkbox">
+              
+              <input type="checkbox" >
+              <p class="d-flex ms-1">Woman</p>
+
+            </label>
+
+
+
+            <label for="" class="d-flex checkbox">
+              
+              <input type="checkbox" >
+              <p class="d-flex ms-1">UniSex</p>
+
+            </label>
+
+
+
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <hr><hr>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Kids
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+
+            <label for="" class="d-flex checkbox">
+
+              <input type="checkbox" >
+              <p class="d-flex ms-1">Boys</p>
+
+            </label>
+
+
+            <label for="" class="d-flex checkbox">
+              
+              <input type="checkbox">
+              <p class="d-flex ms-1">Girs</p>
+
+            </label>
+
+
+
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <hr><hr>
+    
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Shop by Price
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+
+            <label for="" class="d-flex checkbox">
+
+              <input type="checkbox" >
+              <p class="d-flex ms-1">$0-$25</p>
+
+            </label>
+
+
+            <label for="" class="d-flex checkbox">
+              
+              <input type="checkbox" >
+              <p class="d-flex ms-1">$25-$50</p>
+
+            </label>
+
+
+
+            <label for="" class="d-flex checkbox">
+              
+              <input type="checkbox" >
+              <p class="d-flex ms-1">$50-$100</p>
+
+            </label>
+
+
+            <label for="" class="d-flex checkbox">
+              
+              <input type="checkbox" >
+              <p class="d-flex ms-1">$100-$150</p>
+
+            </label>
+
+
+            <label for="" class="d-flex checkbox">
+              
+              <input type="checkbox" >
+              <p class="d-flex ms-1">$150-Over</p>
+
+            </label>
+
+
+
+
+
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <hr><hr>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Gender
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse "aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+
+            <div class="row row-cols-3 d-flex justify-content-center ms-4">
+              <div class="col mt-2">
+                <div class="card" style="width: 0.2mm; height: 0.2mm; border-radius: 50%; background-color: red;">
+                </div>
+              </div>
+
+              <div class="col mt-2">
+                <div class="card" style="width: 0.2mm; height: 0.2mm; border-radius: 50%; background-color: rgb(0, 0, 0);">
+                </div>
+              </div>
+
+
+              <div class="col mt-2">
+                <div class="card" style="width: 0.2mm; height: 0.2mm; border-radius: 50%; background-color: rgb(123, 0, 255);">
+                </div>
+              </div>
+
+
+              <div class="col mt-2">
+                <div class="card" style="width: 0.2mm; height: 0.2mm; border-radius: 50%; background-color: rgb(255, 72, 0);">
+                </div>
+              </div>
+
+
+              <div class="col mt-2">
+                <div class="card" style="width: 0.2mm; height: 0.2mm; border-radius: 50%; background-color: rgb(250, 114, 137);">
+                </div>
+              </div>
+
+
+
+                                                    
+
+            </div>
+
+
+
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+<button class="openbtn" onclick="openNav()">☰ Toggle Sidepanel</button>  
+<h2>Collapsed Sidepanel</h2>
+<p>Click on the hamburger menu/bar icon to open the sidepanel.</p>
+ -->
+
+
+

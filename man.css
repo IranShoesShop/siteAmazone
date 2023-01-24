@@ -1,0 +1,696 @@
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+.pg2 li {
+    text-decoration: none !important;
+list-style: none;
+}
+.chck .checkbox{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+    .chck a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+    }
+    .chck .checkmark{
+        background-color: black;
+    }
+    /* /////////////////////checkbox2///////////////////// */
+    .chck2 .checkbox2{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+    .chck2 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+    }
+    /* /////////////////////checkbox3///////////////////// */
+    .chck3 .checkbox3{
+            width:1.2rem ;
+            height: 1.2rem;
+            }
+    .chck3 a{
+                text-decoration: none !important;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: black;
+    }
+    /* //////////////////////checkbox4////////////////////////// */
+    .chck4 .checkbox4{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+.chck4 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+}     
+ /* //////////////////////checkbox5////////////////////////// */
+ .chck5 .checkbox5{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck5 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}     
+  /* //////////////////////checkbox6////////////////////////// */
+  .chck6 .checkbox6{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck6 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}     
+ /* //////////////////////checkbox7////////////////////////// */
+ .chck7 .checkbox7{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck7 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}     
+  /* //////////////////////checkbox8////////////////////////// */
+  .chck8 .checkbox8{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck8 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}     
+   /* //////////////////////checkbox9////////////////////////// */
+   .chck9 .checkbox9{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck9 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}     
+    /* //////////////////////checkbox10////////////////////////// */
+    .chck10 .checkbox10{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+.chck10 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+}     
+     /* //////////////////////checkbox11////////////////////////// */
+     .chck11 .checkbox11{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+.chck11 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            background-color: red;
+}     
+      /* //////////////////////checkbox12////////////////////////// */
+      .chck12 .checkbox12{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+.chck12 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            background-color: green;
+}     
+       /* //////////////////////checkbox13////////////////////////// */
+       .chck13 .checkbox13{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+.chck13 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            background-color: yellow;
+}     
+        /* //////////////////////checkbox14////////////////////////// */
+        .chck14 .checkbox14{
+            width:1.2rem ;
+            height: 1.2rem;
+            }
+    .chck14 a{
+                text-decoration: none !important;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: white;
+                background-color: blue;
+    }     
+         /* //////////////////////checkbox15////////////////////////// */
+         .chck15 .checkbox15{
+            width:1.2rem ;
+            height: 1.2rem;
+            }
+    .chck15 a{
+                text-decoration: none !important;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: white;
+                background-color: black;
+    }  
+    /* //////////////////////checkbox16////////////////////////// */   
+    .chck16 .checkbox16{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+.chck16 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+}  
+    /* //////////////////////checkbox17////////////////////////// */   
+    .chck17 .checkbox17{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+.chck17 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            }  
+    /* //////////////////////checkbox18////////////////////////// */   
+    .chck18 .checkbox18{
+        width:1.2rem ;
+        height: 1.2rem;
+        }
+.chck18 a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+}  
+/* //////////////////////checkbox19////////////////////////// */   
+.chck19 .checkbox19{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck19 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}  
+/* //////////////////////checkbox20////////////////////////// */   
+.chck20 .checkbox20{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck20 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}  
+/* //////////////////////checkbox21////////////////////////// */   
+.chck21 .checkbox21{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck21 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}  
+/* //////////////////////checkbox22////////////////////////// */   
+.chck22 .checkbox22{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck22 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}  
+/* //////////////////////checkbox23////////////////////////// */   
+.chck23 .checkbox23{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck23 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}  
+/* //////////////////////checkbox24////////////////////////// */   
+.chck24 .checkbox24{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck24 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}  
+/* //////////////////////checkbox25////////////////////////// */   
+.chck25 .checkbox25{
+    width:1.2rem ;
+    height: 1.2rem;
+    }
+.chck25 a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+}  
+/* ////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+.dropdown-menu li a{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.xx{
+    border: 3px solid transparent !important;
+    border-radius: 5px solid transparent !important;
+    transition: 0.2s all ease-in-out !important;
+}
+.xx:hover{
+    border: 3px solid black !important;
+    border-radius: 5px solid black !important;
+
+}
+/* //////////////////////button-mobile ////////////////////////// */
+ .chck-mobile .checkbox-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    /* /////////////////////checkbox2///////////////////// */
+.chck2-mobile .checkbox2-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+    .chck2-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+    }
+    /* /////////////////////checkbox3///////////////////// */
+ .chck3-mobile .checkbox3-mobile{
+            width:1.5rem ;
+            height: 1.5rem;
+            }
+            .chck3-mobile a{
+                text-decoration: none !important;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                
+    }
+     /* //////////////////////checkbox4////////////////////////// */
+        .chck4-mobile .checkbox4-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+        .chck4-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+}     
+ /* //////////////////////checkbox5////////////////////////// */
+.chck5-mobile .checkbox5-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck5-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}     
+  /* //////////////////////checkbox6////////////////////////// */
+   .chck6-mobile .checkbox6-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+     .chck6-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}     
+ /* //////////////////////checkbox7////////////////////////// */
+  .chck7-mobile .checkbox7-mobile{
+    width: 1.5em;
+    height: 1.5rem;
+    }
+ .chck7-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}     
+  /* //////////////////////checkbox8////////////////////////// */
+ .chck8-mobile .checkbox8-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+     .chck8-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}     
+   /* //////////////////////checkbox9////////////////////////// */
+    .chck9-mobile .checkbox9-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+ .chck9-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}     
+    /* //////////////////////checkbox10////////////////////////// */
+     .chck10-mobile .checkbox10-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+         .chck10-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+}     
+     /* //////////////////////checkbox11////////////////////////// */
+      .chck11-mobile .checkbox11-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+    .chck11-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+
+            
+}     
+      /* //////////////////////checkbox12////////////////////////// */
+       .chck12-mobile .checkbox12-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+        .chck12-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            
+}     
+       /* //////////////////////checkbox13////////////////////////// */
+       .chck13-mobile .checkbox13-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+        .chck13-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+ }     
+        /* //////////////////////checkbox14////////////////////////// */
+         .chck14-mobile .checkbox14-mobile{
+            width:1.5rem ;
+            height: 1.5rem;
+            }
+        .chck14-mobile a{
+                text-decoration: none !important;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: white;
+                
+    }     
+         /* //////////////////////checkbox15////////////////////////// */
+         .chck15-mobile .checkbox15-mobile{
+            width:1.5rem ;
+            height: 1.5rem;
+            }
+        .chck15-mobile a{
+                text-decoration: none !important;
+                text-align: center;
+                font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: white;
+                background-color: red;
+                
+    }  
+    /* //////////////////////checkbox16////////////////////////// */   
+    .chck16-mobile .checkbox16-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+        .chck16-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            background-color: green;
+            
+}  
+    /* //////////////////////checkbox17////////////////////////// */   
+ .chck17-mobile .checkbox17-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+        .chck17-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            background-color: yellow;
+            }  
+    /* //////////////////////checkbox18////////////////////////// */   
+    .chck18-mobile .checkbox18-mobile{
+        width:1.5rem ;
+        height: 1.5rem;
+        }
+        .chck18-mobile a{
+            text-decoration: none !important;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            background-color: blue;
+}  
+/* //////////////////////checkbox19////////////////////////// */   
+.chck19-mobile .checkbox19-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck19-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+}  
+/* //////////////////////checkbox20////////////////////////// */   
+.chck20-mobile .checkbox20-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck20-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        background-color: white;
+}  
+/* //////////////////////checkbox21////////////////////////// */   
+.chck21-mobile .checkbox21-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck21-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+/* //////////////////////checkbox22////////////////////////// */   
+.chck22-mobile .checkbox22-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+.chck22-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+/* //////////////////////checkbox23////////////////////////// */   
+.chck23-mobile .checkbox23-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck23-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+/* //////////////////////checkbox24////////////////////////// */   
+.chck24-mobile .checkbox24-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck24-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+/* //////////////////////checkbox25////////////////////////// */   
+.chck25-mobile .checkbox25-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+.chck25-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+/* //////////////////////checkbox26////////////////////////// */  
+.chck26-mobile .checkbox26-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck26-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+/* //////////////////////checkbox27////////////////////////// */  
+.chck27-mobile .checkbox27-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck27-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+/* //////////////////////checkbox28////////////////////////// */  
+.chck28-mobile .checkbox28-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+.chck28-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+/* //////////////////////checkbox29////////////////////////// */  
+.chck29-mobile .checkbox29-mobile{
+    width:1.5rem ;
+    height: 1.5rem;
+    }
+    .chck29-mobile a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}  
+
+
+
